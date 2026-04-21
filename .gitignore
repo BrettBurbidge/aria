@@ -1,0 +1,45 @@
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+
+# ─── SvelteKit ────────────────────────────────────────────────────────────────
+.svelte-kit/
+build/
+
+# ─── Environment variables ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Prisma ───────────────────────────────────────────────────────────────────
+# Keep schema.prisma and migrations in source control.
+# Ignore the generated client (it's rebuilt on install).
+prisma/generated/
+
+# ─── Vercel ───────────────────────────────────────────────────────────────────
+.vercel/
+
+# ─── Build output ─────────────────────────────────────────────────────────────
+dist/
+*.js.map
+
+# ─── Claude Code ──────────────────────────────────────────────────────────────
+.claude/
+
+# ─── OS & editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/settings.json
+*.code-workspace
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── TypeScript ───────────────────────────────────────────────────────────────
+*.tsbuildinfo
